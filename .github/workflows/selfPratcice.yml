@@ -1,0 +1,13 @@
+name: "Self-Pratice"
+
+on:
+  push:
+    branches:
+      - "master-test"
+
+jobs:
+  practice-1:
+    runs-on: "ubuntu-latest"
+    steps:
+      - name: "process start"
+        run: echo "print the start process"
