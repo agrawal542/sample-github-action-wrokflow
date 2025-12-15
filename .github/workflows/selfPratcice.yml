@@ -2,8 +2,6 @@ name: "Self-Pratice"
 
 on:
   push:
-    branches:
-      - "master-test"
 
 jobs:
   practice-1:
